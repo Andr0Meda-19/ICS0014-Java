@@ -8,14 +8,14 @@ public abstract class Record implements RecordInterface {
     private String genre;
 
     public int generateNumber() {
-        return 6;
+        return 4;
     }
 
     public int generateNumber(int a) {
-        return 6 + a;
+        return 4 + a;
     }
 
     public int generateNumber(int a, int b) {
-        return 6 + a + b;
+        return 4 + a + b;
     }
 }

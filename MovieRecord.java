@@ -14,5 +14,6 @@ public class MovieRecord extends Record {
     public String sayHello() {
         return null;
     }
+
 }
 

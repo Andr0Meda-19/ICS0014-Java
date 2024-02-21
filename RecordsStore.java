@@ -12,7 +12,7 @@ public class RecordsStore {
         musicRecord2.setAlbumName("Thriller");
 
         System.out.println(musicRecord2.generateNumber());
-        System.out.println(musicRecord2.generateNumber(3));
-        System.out.println(musicRecord2.generateNumber(3, 5));
+        System.out.println(musicRecord2.generateNumber(5));
+        System.out.println(musicRecord2.generateNumber(5, 8));
     }
 }

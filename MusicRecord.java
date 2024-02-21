@@ -19,6 +19,6 @@ public class MusicRecord extends Record {
 
     @Override
     public int generateNumber() {
-        return 8;
+        return 10;
     }
 }
