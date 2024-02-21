@@ -3,11 +3,16 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class movieRecord {
+public class MovieRecord extends Record {
 
     // genre, film director, name
-    private String genre;
+
     private String filmDirector;
     private String name;
+
+    @Override
+    public String sayHello() {
+        return null;
+    }
 }
 
