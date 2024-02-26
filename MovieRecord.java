@@ -15,5 +15,20 @@ public class MovieRecord extends Record {
         return null;
     }
 
+    @Override
+    public String composeRecordName(int price) {
+        return null;
+    }
+
+    @Override
+    public String composeRecordName(int price, boolean hasDiscount) {
+        return null;
+    }
+
+    @Override
+    public String composeRecordName(int price, boolean hasDiscount, boolean isNew) {
+        return null;
+    }
+
 }
 

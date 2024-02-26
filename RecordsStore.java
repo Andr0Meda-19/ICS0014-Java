@@ -11,8 +11,11 @@ public class RecordsStore {
         musicRecord2.setArtist("Michael Jackson");
         musicRecord2.setAlbumName("Thriller");
 
-        System.out.println(musicRecord2.generateNumber());
-        System.out.println(musicRecord2.generateNumber(5));
-        System.out.println(musicRecord2.generateNumber(5, 8));
+        MusicRecord myMusicRecord = new MusicRecord();
+        myMusicRecord.setGenre("metal");
+        myMusicRecord.setArtist("Slipknot");
+        myMusicRecord.setAlbumName("Slipknot");
+
+        System.out.println(myMusicRecord.composeRecordName(50, false));
     }
 }
