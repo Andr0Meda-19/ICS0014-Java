@@ -16,6 +16,10 @@ public class RecordsStore {
         myMusicRecord.setArtist("Slipknot");
         myMusicRecord.setAlbumName("Slipknot");
 
-        System.out.println(myMusicRecord.composeRecordName(50, false));
+        MovieRecord myMovieRecord = new MovieRecord();
+        myMovieRecord.setGenre("fantasy");
+
+        System.out.println(myMovieRecord.processGenge());
+//        System.out.println(myMusicRecord.composeRecordName(50, false));
     }
 }
