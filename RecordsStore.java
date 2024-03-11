@@ -19,7 +19,7 @@ public class RecordsStore {
         MovieRecord myMovieRecord = new MovieRecord();
         myMovieRecord.setGenre("fantasy");
 
-        System.out.println(myMovieRecord.processGenge());
+        System.out.println(myMovieRecord.processGenre());
 //        System.out.println(myMusicRecord.composeRecordName(50, false));
     }
 }

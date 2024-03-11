@@ -7,7 +7,7 @@ public abstract class Record implements RecordInterface {
 
     private String genre;
 
-    public String processGenge() {
+    public String processGenre() {
         String result = "";
         switch (this.genre) {
             case "rock":
@@ -26,7 +26,7 @@ public abstract class Record implements RecordInterface {
         return result;
     }
 
-    public String processGenge2() {
+    public String processGenre2() {
         switch (this.genre) {
             case "rock":
                 return "Result is rock";
